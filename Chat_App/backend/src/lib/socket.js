@@ -7,7 +7,7 @@ const server=http.createServer(app);
 
 const io=new Server(server,{
     cors:{
-        origin:["https://extraordinary-pony-6cdd87.netlify.app"],
+        origin:["https://baladineshmchatapp.netlify.app"],
     },
 });
 export function getReceiverSocketId(userId){
