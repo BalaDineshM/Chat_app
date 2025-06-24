@@ -5,6 +5,8 @@ import { EyeOff, MessageSquare } from 'lucide-react';
 import {User,Mail,Eye,Lock,Loader2} from 'lucide-react';
 import AuthImagePattern from '../components/AuthImagePattern';
 import toast from 'react-hot-toast';
+console.log("MODE:", import.meta.env.MODE);
+
 export const SignUpPage = () => {
   const [showPassword,setShowPassword]=useState(false);
   const [formData,setFormData]=useState({
